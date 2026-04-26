@@ -1,0 +1,36 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.navBarWrapper {
+    display: flex;
+    margin-top: 32px;
+    margin-left: 32px;
+    align-items: center;
+    gap: 135px;
+}
+
+.logoAndName {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 24px;
+}
+
+.navBar {
+    display: flex;
+    gap: 62px;
+    list-style-type: none;
+}
+
+.navBar li {
+    font-family: n;
+    color: #612999;
+}
+
+.navBar li:hover {
+    color: blueviolet;
+    font-weight: 700;
+}
