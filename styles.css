@@ -46,6 +46,11 @@ p {
     margin: 0px;
 }
 
+a:any-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 .footerLinksWrapper {
     display: flex;
     flex-direction: column;
@@ -53,8 +58,19 @@ p {
 }
 
 footer {
+    background-color: #EFECFF;
     display: flex;
     gap: 150px;
     padding-top: 32px;
     padding-left: 32px;
+}
+
+.icons-footer {
+    display: flex;
+    gap: 24px;
+}
+
+.icons-footer img {
+    height: 20px;
+    width: 20px;
 }
