@@ -81,6 +81,9 @@ footer {
 .hero {
     background-image: url("/src/newHeroImg.png");
     height: 720px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .heroText {
@@ -100,7 +103,39 @@ h1 {
     color: #14295e;
 }
 
+.cardsWrapper {
+    padding-left: 32px;
+}
+
 .card {
     border-radius: 38px;
     background-color: #EFECFF;
+    max-width: 400px;
+    max-height: 500px;
+    padding-left: 15px;
+    padding-right: 80px;
+}
+
+.cardPrice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.shoppingIcon {
+    display: flex;
+    border-radius: 100px;
+    background-color: #612999;
+    padding: 10px;
+    width: fit-content;
+}
+
+.shoppingIcon img {
+    width: 31px;
+    height: 31px;
+}
+
+.card img {
+    width: 350px;
 }
