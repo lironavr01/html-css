@@ -105,30 +105,50 @@ h1 {
 
 .cardsWrapper {
     padding-left: 32px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
 }
 
 .card {
     border-radius: 38px;
     background-color: #EFECFF;
     max-width: 400px;
-    max-height: 500px;
-    padding-left: 15px;
     padding-right: 80px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    height: fit-content;
+    overflow: hidden;
 }
 
 .cardPrice {
+    padding-left: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 200px;
+    margin-bottom: 10px;
+
 }
+
+.card h3 {
+    padding-left: 15px;
+
+}
+
+.card p {
+    padding-left: 15px;
+}
+
 
 .shoppingIcon {
     display: flex;
-    border-radius: 100px;
+    border-radius: 50px;
     background-color: #612999;
     padding: 10px;
-    width: fit-content;
+    margin-top: 10px;
+    height: fit-content;
+    width: 30px;
 }
 
 .shoppingIcon img {
@@ -137,5 +157,5 @@ h1 {
 }
 
 .card img {
-    width: 350px;
+    width: 500px;
 }
